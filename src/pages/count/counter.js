@@ -6,11 +6,11 @@ class Counter extends Component {
       return (
           <div>
               <div>当前计数为{this.props.counter.count}</div>
-              <button onClick={() => this.props.increment()}>自增
+              <button onClick={() => this.props.increment()}>+
               </button>
-              <button onClick={() => this.props.decrement()}>自减
+              <button onClick={() => this.props.decrement()}>-
               </button>
-              <button onClick={() => this.props.reset()}>重置
+              <button onClick={() => this.props.reset()}>reset
               </button>
           </div>
       )
