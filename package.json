@@ -29,6 +29,6 @@
     "react-hot-loader": "^4.5.3",
     "redux": "^4.0.1",
     "webpack": "^3.8.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^3.1.11"
   }
 }
